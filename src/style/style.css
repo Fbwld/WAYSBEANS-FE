@@ -1,0 +1,84 @@
+
+.img-contact {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover !important;
+}
+.img-chat {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover !important;
+}
+.text-contact {
+    font-size: 14px;
+}
+.text-contact-chat {
+    color: #ababab;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    background-color:#DFDFDF;
+    margin-left: 134px;
+    width: 300px;
+    margin-top: 20px;
+}
+.contact img {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.contact ul {
+    list-style-type: none;
+}
+.contact:hover {
+    background-color:#C4C4C4;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact:active {
+    background-color:#DFDFDF;
+    transition: 0.3s;
+}
+.contact-active {
+    background-color:#DFDFDF;
+    border-radius: 5px;
+}
+.input-message {
+    width:690px;
+    height: 44px;
+    background: #C4C4C4;
+    border: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.chat-me {
+    position: relative;
+    background:white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    width: 306px;
+    color: black;
+}
+.chat-other {
+    position: relative;
+    background:white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    width: 306px;
+    margin-right: 20px;
+}
+.text-chat-name{
+    margin-right: 2px;
+}
+.chat-header-chat{
+    margin-top: -45px;
+}
